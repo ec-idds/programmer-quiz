@@ -1,0 +1,22 @@
+{
+  "name": "programmer-quiz",
+  "version": "0.1.0",
+  "description": "Unserious personality quiz about what kind of programmer stereotype you are. Final project of the Software Development Tools class at Emmanuel College, Fall 2024.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ec-idds/programmer-quiz.git"
+  },
+  "author": "Mark Sherman <profmarksherman@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ec-idds/programmer-quiz/issues"
+  },
+  "homepage": "https://github.com/ec-idds/programmer-quiz#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
