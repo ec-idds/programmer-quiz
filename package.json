@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ec-idds/programmer-quiz#readme",
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "handlebars": "^4.7.8"
   }
 }
