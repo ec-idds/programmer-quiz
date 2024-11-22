@@ -2,9 +2,10 @@ const express = require('express')
 const res = require('express/lib/response')
 const app = express()
 const port = 3000
+var http = require('http');
 var url = require('url');
 var fs = require('fs');
-var http = require('http');
+
 
 
 app.get('/', (req, res) => {
