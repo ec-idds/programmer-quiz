@@ -5,8 +5,7 @@ const port = 3000
 const http = require('http');
 const url = require('url');
 const fs = require('fs');
-
-
+const Handlebars = require("handlebars");
 
 app.get('/', (req, res) => {
   fs.readFile('html/startpage.html', function(err, data) {
