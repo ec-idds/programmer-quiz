@@ -4,6 +4,8 @@ const port = 3000;
 const fs = require("fs");
 //const Handlebars = require("handlebars");
 
+app.use(express.static("html"));
+
 app.get("/", (req, res) => {
   fs.readFile("html/startpage.html", function (err, data) {
     res.writeHead(200, { "Content-Type": "text/html" });
