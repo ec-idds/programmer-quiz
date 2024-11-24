@@ -4,6 +4,7 @@
   "description": "Unserious personality quiz about what kind of programmer stereotype you are. Final project of the Software Development Tools class at Emmanuel College, Fall 2024.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
