@@ -3,105 +3,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Programmer Quiz</title>
-    <!-- Link to Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        background-color: rgb(236, 236, 236);
-      }
-      .container {
-        text-align: center;
-        max-width: 600px;
-        padding: 40px;
-        background: white;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      }
-      h1 {
-        color: #333;
-        font-family: "Arial", sans-serif;
-        font-size: 24px;
-        margin-top: 20px;
-        margin-bottom: 10px;
-        font-weight: bold;
-      }
-      .image-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-      .image-container img {
-        width: auto;
-        height: auto;
-        max-width: 500px;
-        max-width: 100%;
-        height: auto;
-        border-radius: 10px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for emphasis */
-        margin-top: 20px;
-      }
-      .image-container .caption {
-        margin-top: 10px;
-      }
-      .quiz-button {
-        margin-top: 30px;
-        font-size: 18px;
-        font-weight: bold;
-        color: white;
-        background-color: #5fb5f9; /* color picked from shirt */
-        padding: 12px 24px;
-        border: none;
-        border-radius: 8px; /* Rounded buttons */
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-        transition:
-          background-color 0.3s ease,
-          transform 0.2s ease;
-        text-decoration: none;
-      }
-      .quiz-button:hover {
-        background-color: #0056b3; /* Slightly darker blue on hover */
-        transform: translateY(-3px) scale(1.05);
-      }
-      .quiz-button:active {
-        transform: translateY(1px) scale(0.95); /* Depress effect */
-      }
-      footer {
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        padding: 10px;
-        color: #6c757d; /* Muted text for footer */
-        font-size: 14px;
-        font-family: "Arial", sans-serif;
-      }
-    </style>
+    <link href="style.css" rel="stylesheet" />
+    <style></style>
   </head>
   <body>
     <div class="container">
-      <h1>Programming Personality Quiz</h1>
-
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-8 col-lg-6 image-container">
-          <img
-            src="https://tgaw.wordpress.com/wp-content/uploads/2010/07/comic_book_guycomputer.jpg"
-            alt="A humorous depiction of a programmer sitting at a computer"
-          />
-          <a href="#" class="quiz-button">Start the Quiz</a>
-        </div>
+      <div class="title">Programming Personality Quiz</div>
+      <div class="image-placeholder">
+        <img
+          src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*ZR6hBm-OseZ66XOnGDbr_w.png"
+          alt="HomePage Image"
+          class="img-fluid"
+        />
+        <div class="quiz-button">Start</div>
       </div>
     </div>
     <footer>SDT 2024</footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
   </body>
 </html>
