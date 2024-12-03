@@ -27,7 +27,8 @@ npm run start
 
 There are two code quality tools set up. You can run them by hand on the command line. **They will also run automatically as a GitHub Action when you make a pull request to `main`.**
 
-You can run them both with 
+You can run them both with
+
 ```bash
 npm test
 ```
