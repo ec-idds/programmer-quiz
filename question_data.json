@@ -141,13 +141,13 @@
   {
     "id": 13,
     "question": "What music do you listen to?",
-    "img": "*ADDPATH*", 
+    "img": "*ADDPATH*",
     "answers": [
-      { "text": "House", "weights": {} },
-      { "text": "The Grateful Dead", "weights": {} },
-	  { "text": "2000s pop", "weights": {} },
-	  { "text": "Classical gas", "weights": {} },
-	  { "text": "Opera", "weights": {} }
+      { "text": "House", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+      { "text": "The Grateful Dead", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "2000s pop", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "Classical gas", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "Opera", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} }
     ]
   },
   {
