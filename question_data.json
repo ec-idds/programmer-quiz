@@ -6,8 +6,8 @@
       { "text": "RedBull", "weights": {} },
       { "text": "Natty Lite", "weights": {} },
       { "text": "Red Wine", "weights": {} },
-	  { "text": "Coffee", "weights": {} },
-	  { "text": "Chocolate Milk", "weights": {} }
+      { "text": "Coffee", "weights": {} },
+      { "text": "Chocolate Milk", "weights": {} }
     ]
   },
   {
@@ -16,9 +16,9 @@
     "answers": [
       { "text": "League of Legends", "weights": {} },
       { "text": "Fortnite", "weights": {} },
-	  { "text": "Galaga", "weights": {} },
-	  { "text": "Skyrim", "weights": {} },
-	  { "text": "Don't have time", "weights": {} }
+      { "text": "Galaga", "weights": {} },
+      { "text": "Skyrim", "weights": {} },
+      { "text": "Don't have time", "weights": {} }
     ]
   },
   {
@@ -27,9 +27,9 @@
     "answers": [
       { "text": "What mom is making", "weights": {} },
       { "text": "Chipotle", "weights": {} },
-	  { "text": "What the intern brings", "weights": {} },
-	  { "text": "Ramen Noodles", "weights": {} },
-	  { "text": "Leftover Spaghetti", "weights": {} }
+      { "text": "What the intern brings", "weights": {} },
+      { "text": "Ramen Noodles", "weights": {} },
+      { "text": "Leftover Spaghetti", "weights": {} }
     ]
   },
   {
@@ -38,10 +38,10 @@
     "answers": [
       { "text": "The Social Network", "weights": {} },
       { "text": "The Matrix", "weights": {} },
-	  { "text": "Ready Player One", "weights": {} },
-	  { "text": "Fight Club", "weights": {} },
-	  { "text": "Office Space", "weights": {} }
-	  { "text": "Don't have time", "weights": {} }
+      { "text": "Ready Player One", "weights": {} },
+      { "text": "Fight Club", "weights": {} },
+      { "text": "Office Space", "weights": {} },
+      { "text": "Don't have time", "weights": {} }
     ]
   },
   {
@@ -50,8 +50,8 @@
     "answers": [
       { "text": "Newest MacBook Pro", "weights": {} },
       { "text": "ThinkPad running Linux", "weights": {} },
-	  { "text": "Dell", "weights": {} },
-	  { "text": "Custom-build liquid-cooled rig", "weights": {} }
+      { "text": "Dell", "weights": {} },
+      { "text": "Custom-build liquid-cooled rig", "weights": {} }
     ]
   },
   {
@@ -60,7 +60,7 @@
     "answers": [
       { "text": "Too many", "weights": {} },
       { "text": "Not enough", "weights": {} },
-	  { "text": "40 hours", "weights": {} }
+      { "text": "40 hours", "weights": {} }
     ]
   },
   {
@@ -77,23 +77,29 @@
     "answers": [
       { "text": "Java", "weights": {} },
       { "text": "C#", "weights": {} },
-	  { "text": "Python", "weights": {} },
-	  { "text": "C", "weights": {} },
-	  { "text": "JavaScript", "weights": {} },
-	  { "text": "Command Line", "weights": {} }
+      { "text": "Python", "weights": {} },
+      { "text": "C", "weights": {} },
+      { "text": "JavaScript", "weights": {} },
+      { "text": "Command Line", "weights": {} }
     ]
   },
   {
     "id": 9,
     "question": "What is your biggest fear?",
     "answers": [
-      { "text": "Computers gaining consciousness and taking over the world", "weights": {} },
+      {
+        "text": "Computers gaining consciousness and taking over the world",
+        "weights": {}
+      },
       { "text": "Getting yelled at", "weights": {} },
-	  { "text": "Going to the doctor", "weights": {} },
-	  { "text": "Heights", "weights": {} },
-	  { "text": "The dark", "weights": {} },
-	  { "text": "Showering", "weights": {} },
-	  { "text": "Corporations using open source code without releasing their changes back to the public", "weights": {} }
+      { "text": "Going to the doctor", "weights": {} },
+      { "text": "Heights", "weights": {} },
+      { "text": "The dark", "weights": {} },
+      { "text": "Showering", "weights": {} },
+      {
+        "text": "Corporations using open source code without releasing their changes back to the public",
+        "weights": {}
+      }
     ]
   },
   {
@@ -102,9 +108,9 @@
     "answers": [
       { "text": "Beige", "weights": {} },
       { "text": "Red", "weights": {} },
-	  { "text": "Blue", "weights": {} },
-	  { "text": "Phosphorescent green", "weights": {} },
-	  { "text": "Don't have time", "weights": {} }
+      { "text": "Blue", "weights": {} },
+      { "text": "Phosphorescent green", "weights": {} },
+      { "text": "Don't have time", "weights": {} }
     ]
   },
   {
@@ -121,9 +127,9 @@
     "answers": [
       { "text": "City", "weights": {} },
       { "text": "Rural", "weights": {} },
-	  { "text": "By the ocean", "weights": {} },
-	  { "text": "Off-grid cabin", "weights": {} },
-	  { "text": "Mars", "weights": {} }
+      { "text": "By the ocean", "weights": {} },
+      { "text": "Off-grid cabin", "weights": {} },
+      { "text": "Mars", "weights": {} }
     ]
   },
   {
@@ -132,9 +138,9 @@
     "answers": [
       { "text": "House", "weights": {} },
       { "text": "The Grateful Dead", "weights": {} },
-	  { "text": "2000s pop", "weights": {} },
-	  { "text": "Classical gas", "weights": {} },
-	  { "text": "Opera", "weights": {} }
+      { "text": "2000s pop", "weights": {} },
+      { "text": "Classical gas", "weights": {} },
+      { "text": "Opera", "weights": {} }
     ]
   },
   {
@@ -143,9 +149,9 @@
     "answers": [
       { "text": "Netflix", "weights": {} },
       { "text": "Prime Video", "weights": {} },
-	  { "text": "I torrent (The Pirate Bay Catalog)", "weights": {} },
-	  { "text": "ESPN+", "weights": {} },
-	  { "text": "Disney+", "weights": {} }
+      { "text": "I torrent (The Pirate Bay Catalog)", "weights": {} },
+      { "text": "ESPN+", "weights": {} },
+      { "text": "Disney+", "weights": {} }
     ]
   }
 ]

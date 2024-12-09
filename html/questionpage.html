@@ -14,7 +14,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="title">Question #{{qno}}</div>
+      <div class="title">Question {{qno}}</div>
       <div class="image-placeholder">
         <img
           src="https://www.shutterstock.com/shutterstock/photos/2212935531/display_1500/stock-photo-calm-weather-on-sea-or-ocean-with-clouds-2212935531.jpg"
@@ -22,14 +22,11 @@
           class="img-fluid"
         />
       </div>
-      <div class="text">
-        question here! can be up to 4 lines of text before sizing issues occur
-      </div>
+      <div class="text">{{question}}</div>
       <div class="options">
-        <button class="btn btn-primary">Option 1</button>
-        <button class="btn btn-primary">Option 2</button>
-        <button class="btn btn-primary">Option 3</button>
-        <button class="btn btn-primary">Option 4</button>
+        {{#each answers}}
+        <button class="btn btn-primary">{{this}}</button>
+        {{/each}}
       </div>
       <div class="navigation-buttons">
         <button class="prev-button">&larr; Last</button>
