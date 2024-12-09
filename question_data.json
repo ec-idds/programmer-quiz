@@ -2,156 +2,164 @@
   {
     "id": 1,
     "question": "What is your favorite drink?",
+    "img": "*ADDPATH*", /* put image in 'img' folder and use file path */
     "answers": [
-      { "text": "RedBull", "weights": {} },
-      { "text": "Natty Lite", "weights": {} },
-      { "text": "Red Wine", "weights": {} },
-      { "text": "Coffee", "weights": {} },
-      { "text": "Chocolate Milk", "weights": {} }
+      { "text": "RedBull", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0 } },
+      { "text": "Natty Lite", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+      { "text": "Red Wine", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "Coffee", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "Chocolate Milk", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} }
     ]
   },
   {
     "id": 2,
     "question": "What is your favorite video game?",
+    "img": "*ADDPATH*", /* put image in 'img' folder and use file path */
     "answers": [
-      { "text": "League of Legends", "weights": {} },
-      { "text": "Fortnite", "weights": {} },
-      { "text": "Galaga", "weights": {} },
-      { "text": "Skyrim", "weights": {} },
-      { "text": "Don't have time", "weights": {} }
+      { "text": "League of Legends", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+      { "text": "Fortnite", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "Galaga", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "Skyrim", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "Don't have time", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} }
     ]
   },
   {
     "id": 3,
     "question": "What are you eating for lunch?",
+    "img": "*ADDPATH*", /* put image in 'img' folder and use file path */
     "answers": [
-      { "text": "What mom is making", "weights": {} },
-      { "text": "Chipotle", "weights": {} },
-      { "text": "What the intern brings", "weights": {} },
-      { "text": "Ramen Noodles", "weights": {} },
-      { "text": "Leftover Spaghetti", "weights": {} }
+      { "text": "What mom is making", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+      { "text": "Chipotle", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "What the intern brings", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "Ramen Noodles", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "Leftover Spaghetti", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} }
     ]
   },
   {
     "id": 4,
     "question": "What is your favorite movie?",
+    "img": "*ADDPATH*", /* put image in 'img' folder and use file path */
     "answers": [
-      { "text": "The Social Network", "weights": {} },
-      { "text": "The Matrix", "weights": {} },
-      { "text": "Ready Player One", "weights": {} },
-      { "text": "Fight Club", "weights": {} },
-      { "text": "Office Space", "weights": {} },
-      { "text": "Don't have time", "weights": {} }
+      { "text": "The Social Network", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+      { "text": "The Matrix", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "Ready Player One", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "Fight Club", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "Office Space", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "Don't have time", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} }
     ]
   },
   {
     "id": 5,
     "question": "What computer do you have?",
+    "img": "*ADDPATH*", /* put image in 'img' folder and use file path */
     "answers": [
-      { "text": "Newest MacBook Pro", "weights": {} },
-      { "text": "ThinkPad running Linux", "weights": {} },
-      { "text": "Dell", "weights": {} },
-      { "text": "Custom-build liquid-cooled rig", "weights": {} }
+      { "text": "Newest MacBook Pro", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+      { "text": "ThinkPad running Linux", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "Dell", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "Custom-build liquid-cooled rig", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} }
     ]
   },
   {
     "id": 6,
     "question": "How many hours do you work a week?",
+    "img": "*ADDPATH*", /* put image in 'img' folder and use file path */
     "answers": [
-      { "text": "Too many", "weights": {} },
-      { "text": "Not enough", "weights": {} },
-      { "text": "40 hours", "weights": {} }
+      { "text": "Too many", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+      { "text": "Not enough", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "40 hours", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} }
     ]
   },
   {
     "id": 7,
     "question": "Do you code in your free time?",
+    "img": "*ADDPATH*", /* put image in 'img' folder and use file path */
     "answers": [
-      { "text": "Yes", "weights": {} },
-      { "text": "No", "weights": {} }
+      { "text": "Yes", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+      { "text": "No", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} }
     ]
   },
   {
     "id": 8,
     "question": "What is your favorite language?",
+    "img": "*ADDPATH*", /* put image in 'img' folder and use file path */
     "answers": [
-      { "text": "Java", "weights": {} },
-      { "text": "C#", "weights": {} },
-      { "text": "Python", "weights": {} },
-      { "text": "C", "weights": {} },
-      { "text": "JavaScript", "weights": {} },
-      { "text": "Command Line", "weights": {} }
+      { "text": "Java", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+      { "text": "C#", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "Python", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "C", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "JavaScript", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "Command Line", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} }
     ]
   },
   {
     "id": 9,
     "question": "What is your biggest fear?",
+    "img": "*ADDPATH*", /* put image in 'img' folder and use file path */
     "answers": [
-      {
-        "text": "Computers gaining consciousness and taking over the world",
-        "weights": {}
-      },
-      { "text": "Getting yelled at", "weights": {} },
-      { "text": "Going to the doctor", "weights": {} },
-      { "text": "Heights", "weights": {} },
-      { "text": "The dark", "weights": {} },
-      { "text": "Showering", "weights": {} },
-      {
-        "text": "Corporations using open source code without releasing their changes back to the public",
-        "weights": {}
-      }
+      { "text": "Computers gaining consciousness and taking over the world", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+      { "text": "Getting yelled at", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "Going to the doctor", "weights": {} },
+	    { "text": "Heights", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "The dark", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "Showering", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "Corporations using open source code without releasing their changes back to the public", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} }
     ]
   },
   {
     "id": 10,
     "question": "What is your favorite color?",
+    "img": "*ADDPATH*", /* put image in 'img' folder and use file path */
     "answers": [
-      { "text": "Beige", "weights": {} },
-      { "text": "Red", "weights": {} },
-      { "text": "Blue", "weights": {} },
-      { "text": "Phosphorescent green", "weights": {} },
-      { "text": "Don't have time", "weights": {} }
+      { "text": "Beige", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+      { "text": "Red", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "Blue", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "Phosphorescent green", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "Don't have time", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} }
     ]
   },
   {
     "id": 11,
     "question": "Which editor theme do you use?",
+    "img": "*ADDPATH*", /* put image in 'img' folder and use file path */
     "answers": [
-      { "text": "Dark", "weights": {} },
-      { "text": "Light", "weights": {} }
+      { "text": "Dark", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+      { "text": "Light", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} }
     ]
   },
   {
     "id": 12,
     "question": "Where would you rather live?",
+    "img": "*ADDPATH*", /* put image in 'img' folder and use file path */
     "answers": [
-      { "text": "City", "weights": {} },
-      { "text": "Rural", "weights": {} },
-      { "text": "By the ocean", "weights": {} },
-      { "text": "Off-grid cabin", "weights": {} },
-      { "text": "Mars", "weights": {} }
+      { "text": "City", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+      { "text": "Rural", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "By the ocean", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "Off-grid cabin", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "Mars", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} }
     ]
   },
   {
     "id": 13,
     "question": "What music do you listen to?",
+    "img": "*ADDPATH*", /* put image in 'img' folder and use file path */
     "answers": [
-      { "text": "House", "weights": {} },
-      { "text": "The Grateful Dead", "weights": {} },
-      { "text": "2000s pop", "weights": {} },
-      { "text": "Classical gas", "weights": {} },
-      { "text": "Opera", "weights": {} }
+      { "text": "House", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+      { "text": "The Grateful Dead", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "2000s pop", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "Classical gas", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "Opera", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} }
     ]
   },
   {
     "id": 14,
     "question": "What streaming service do you use?",
+    "img": "*ADDPATH*", /* put image in 'img' folder and use file path */
     "answers": [
-      { "text": "Netflix", "weights": {} },
-      { "text": "Prime Video", "weights": {} },
-      { "text": "I torrent (The Pirate Bay Catalog)", "weights": {} },
-      { "text": "ESPN+", "weights": {} },
-      { "text": "Disney+", "weights": {} }
+      { "text": "Netflix", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+      { "text": "Prime Video", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "I torrent (The Pirate Bay Catalog)", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "ESPN+", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
+	    { "text": "Disney+", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} }
     ]
   }
 ]
