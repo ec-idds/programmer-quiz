@@ -1,8 +1,16 @@
 const express = require("express");
-const app = express();
 const port = 3000;
 const fs = require("fs");
 const Handlebars = require("handlebars");
+const compression = require("compression");
+const helmet = require("helmet");
+const RateLimit = require("express-rate-limit");
+
+// Set up rate limiter: maximum of twenty requests per minute
+const limiter = RateLimit({
+  windowMs: 1 * 60 * 1000, // 1 minute
+  max: 20,
+});
 
 let questionData;
 try {
@@ -13,6 +21,18 @@ try {
   process.exit(1); // Exit the server if the JSON file is not accessible
 }
 
+const app = express();
+app.use(limiter);
+// Set CSP headers to allow Bootstrap to be served
+// add "'self'" to the script-src array in 0th position to serve scripts from here
+app.use(
+  helmet.contentSecurityPolicy({
+    directives: {
+      "script-src": ["cdn.jsdelivr.net"],
+    },
+  }),
+);
+app.use(compression());
 app.use(express.static("html"));
 
 app.get("/", (req, res) => {
