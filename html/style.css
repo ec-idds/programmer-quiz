@@ -98,8 +98,8 @@ html {
 }
 
 .quiz-button {
-  display: block; 
-  margin: 20px auto; 
+  display: block; /* Ensures the button stays as a block element under the image */
+  margin: 20px auto; /* Centers the button horizontally */
   text-align: center;
   font-size: 18px;
   font-weight: bold;
@@ -108,7 +108,7 @@ html {
   padding: 12px 24px;
   border: none;
   border-radius: 8px;
-  text-decoration: none; 
+  text-decoration: none; /* Removes underline from the link */
   transition:
     background-color 0.3s ease,
     transform 0.2s ease;
