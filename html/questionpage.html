@@ -29,10 +29,22 @@
         {{/each}}
       </div>
       <div class="navigation-buttons">
-        <button class="prev-button">&larr; Last</button>
-        <button class="next-button">Next &rarr;</button>
+        <button class="prev-button" onclick="navigate(-1)">&larr; Last</button>
+        <button class="next-button" onclick="navigate(1)">Next &rarr;</button>
       </div>
     </div>
     <footer>SDT 2024</footer>
+    <script>
+      function navigate(step) {
+        const urlParams = new URLSearchParams(window.location.search);
+        let questionNumber = parseInt(urlParams.get("p")) || 1;
+
+        questionNumber += step;
+
+        if(questionNumber > 0) {
+          window.location.href = `/q?p=${questionNumber}`;
+        }
+      }
+    </script>
   </body>
 </html>
