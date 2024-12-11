@@ -2,7 +2,7 @@
   {
     "id": 1,
     "question": "What is your favorite drink?",
-    "img": "*ADDPATH*", 
+    "img": "*ADDPATH*",
     "answers": [
       { "text": "RedBull", "weights": {"corp": 1, "dwell": 1, "hack": 0, "open": 0, "startup": 3, "bro": 1 } },
       { "text": "Natty Lite", "weights": {"corp": 0, "dwell": 0, "hack": 2, "open": 0, "startup": 1, "bro": 3} },
@@ -14,7 +14,7 @@
   {
     "id": 2,
     "question": "What is your favorite video game?",
-    "img": "*ADDPATH*", 
+    "img": "*ADDPATH*",
     "answers": [
       { "text": "League of Legends", "weights": {"corp": 0, "dwell": 2, "hack": 0, "open": 0, "startup": 2, "bro": 0} },
       { "text": "Fortnite", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup":1, "bro": 3} },
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "question": "What are you eating for lunch?",
-    "img": "*ADDPATH*", 
+    "img": "*ADDPATH*",
     "answers": [
       { "text": "What mom is making", "weights": {"corp": 0, "dwell": 3, "hack": 1, "open": 0, "startup": 0, "bro": 0} },
       { "text": "Chipotle", "weights": {"corp": 2, "dwell": 0, "hack": 0, "open": 0, "startup": 1, "bro": 2} },
@@ -38,7 +38,7 @@
   {
     "id": 4,
     "question": "What is your favorite movie?",
-    "img": "*ADDPATH*", 
+    "img": "*ADDPATH*",
     "answers": [
       { "text": "The Social Network", "weights": {"corp": 1, "dwell": 0, "hack": 0, "open": 1, "startup": 3, "bro": 0} },
       { "text": "The Matrix", "weights": {"corp": 0, "dwell": 1, "hack": 3, "open": 0, "startup": 0, "bro": 0} },
@@ -51,7 +51,7 @@
   {
     "id": 5,
     "question": "What computer do you have?",
-    "img": "*ADDPATH*", 
+    "img": "*ADDPATH*",
     "answers": [
       { "text": "Newest MacBook Pro", "weights": {"corp": 3, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 3} },
       { "text": "ThinkPad running Linux", "weights": {"corp": 0, "dwell": 1, "hack": 3, "open": 3, "startup": 0, "bro": 0} },
@@ -62,7 +62,7 @@
   {
     "id": 6,
     "question": "How many hours do you work a week?",
-    "img": "*ADDPATH*", 
+    "img": "*ADDPATH*",
     "answers": [
       { "text": "Too many", "weights": {"corp": 1, "dwell": 0, "hack": 0, "open": 0, "startup": 3, "bro": 0} },
       { "text": "Not enough", "weights": {"corp": 0, "dwell": 3, "hack": 3, "open": 0, "startup": 0, "bro": 0} },
@@ -72,7 +72,7 @@
   {
     "id": 7,
     "question": "Do you code in your free time?",
-    "img": "*ADDPATH*", 
+    "img": "*ADDPATH*",
     "answers": [
       { "text": "Yes", "weights": {"corp": 0, "dwell": 3, "hack": 3, "open": 0, "startup": 3, "bro": 0} },
       { "text": "No", "weights": {"corp": 3, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 3} }
@@ -81,7 +81,7 @@
   {
     "id": 8,
     "question": "What is your favorite language?",
-    "img": "*ADDPATH*", 
+    "img": "*ADDPATH*",
     "answers": [
       { "text": "Java", "weights": {"corp": 3, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
       { "text": "C#", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 3, "bro": 3} },
@@ -94,7 +94,7 @@
   {
     "id": 9,
     "question": "What is your biggest fear?",
-    "img": "*ADDPATH*", 
+    "img": "*ADDPATH*",
     "answers": [
       { "text": "Computers gaining consciousness and taking over the world", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup": 0, "bro": 0} },
       { "text": "Getting yelled at", "weights": {"corp": 0, "dwell": 1, "hack": 1, "open": 0, "startup": 0, "bro": 2} },
@@ -108,7 +108,7 @@
   {
     "id": 10,
     "question": "What is your favorite color?",
-    "img": "*ADDPATH*", 
+    "img": "*ADDPATH*",
     "answers": [
       { "text": "Beige", "weights": {"corp": 3, "dwell": 0, "hack": 0, "open": 1, "startup": 1, "bro": 0} },
       { "text": "Red", "weights": {"corp": 0, "dwell": 0, "hack": 1, "open": 0, "startup": 0, "bro": 3} },
@@ -129,7 +129,7 @@
   {
     "id": 12,
     "question": "Where would you rather live?",
-    "img": "*ADDPATH*", 
+    "img": "*ADDPATH*",
     "answers": [
       { "text": "City", "weights": {"corp": 3, "dwell": 0, "hack": 2, "open": 0, "startup": 0, "bro": 2} },
       { "text": "Rural", "weights": {"corp": 0, "dwell": 3, "hack": 0, "open": 3, "startup": 0, "bro": 0} },
@@ -153,7 +153,7 @@
   {
     "id": 14,
     "question": "What streaming service do you use?",
-    "img": "*ADDPATH*", 
+    "img": "*ADDPATH*",
     "answers": [
       { "text": "Netflix", "weights": {"corp": 3, "dwell": 0, "hack": 0, "open": 0, "startup": 2, "bro": 1} },
       { "text": "Prime Video", "weights": {"corp": 2, "dwell": 0, "hack": 0, "open": 0, "startup": 2, "bro": 1} },

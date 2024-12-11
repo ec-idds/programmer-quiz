@@ -95,19 +95,20 @@ html {
 }
 
 .quiz-button {
-  margin-top: 30px;
+  display: block; /* Ensures the button stays as a block element under the image */
+  margin: 20px auto; /* Centers the button horizontally */
+  text-align: center;
   font-size: 18px;
   font-weight: bold;
   color: white;
-  background-color: #5fb5f9; /* color picked from shirt */
+  background-color: #5fb5f9;
   padding: 12px 24px;
   border: none;
-  border-radius: 8px; /* Rounded buttons */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border-radius: 8px;
+  text-decoration: none; /* Removes underline from the link */
   transition:
     background-color 0.3s ease,
     transform 0.2s ease;
-  text-decoration: none;
 }
 .quiz-button:hover {
   background-color: #0056b3; /* Slightly darker blue on hover */
@@ -122,5 +123,5 @@ footer {
   color: #6c757d;
   font-size: 14px;
   font-family: "Arial", sans-serif;
-  text-align: center;
+  text-align: right;
 }
