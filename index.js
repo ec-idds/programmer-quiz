@@ -35,6 +35,7 @@ app.get("/q", (req, res) => {
 
       const questionTemplate = Handlebars.compile(htmlData.toString());
       const questionNumber = parseInt(req.query.p, 10);
+      const totalQuestions = questionData.length;
 
       // Find the question by ID
       const question = questionData.find((q) => q.id === questionNumber);
@@ -48,6 +49,8 @@ app.get("/q", (req, res) => {
         qno: questionNumber,
         question: question.question,
         answers: question.answers.map((answer) => answer.text),
+        isFirstQuestion: questionNumber === 1,
+        isLastQuestion: questionNumber === totalQuestions,
       };
 
       const renderedHtml = questionTemplate(replacements);

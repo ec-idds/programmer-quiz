@@ -20,7 +20,7 @@
       { "text": "Fortnite", "weights": {"corp": 0, "dwell": 0, "hack": 0, "open": 0, "startup":1, "bro": 3} },
 	    { "text": "Galaga", "weights": {"corp": 0, "dwell": 2, "hack": 2, "open": 1, "startup": 0, "bro": 0} },
 	    { "text": "Skyrim", "weights": {"corp": 0, "dwell": 3, "hack": 1, "open": 0, "startup": 1, "bro": 0} },
-	    { "text": "Don't have time", "weights": {"corp": 1, "dwell": 0, "hack": 0, "open": 0, "startup": 3, "bro": 1} }
+	    { "text": "Dont have time", "weights": {"corp": 1, "dwell": 0, "hack": 0, "open": 0, "startup": 3, "bro": 1} }
     ]
   },
   {
@@ -45,7 +45,7 @@
 	    { "text": "Ready Player One", "weights": {"corp": 0, "dwell": 3, "hack": 1, "open": 0, "startup": 0, "bro": 0} },
 	    { "text": "Fight Club", "weights": {"corp": 1, "dwell": 0, "hack": 1, "open": 0, "startup": 0, "bro": 3} },
 	    { "text": "Office Space", "weights": {"corp": 3, "dwell": 0, "hack": 0, "open": 2, "startup": 1, "bro": 0} },
-	    { "text": "Don't have time", "weights": {"corp": 1, "dwell": 0, "hack": 0, "open": 0, "startup": 3, "bro": 0} }
+	    { "text": "Dont have time", "weights": {"corp": 1, "dwell": 0, "hack": 0, "open": 0, "startup": 3, "bro": 0} }
     ]
   },
   {
@@ -114,7 +114,7 @@
       { "text": "Red", "weights": {"corp": 0, "dwell": 0, "hack": 1, "open": 0, "startup": 0, "bro": 3} },
 	    { "text": "Blue", "weights": {"corp": 2, "dwell": 0, "hack": 0, "open": 3, "startup": 1, "bro": 0} },
 	    { "text": "Phosphorescent green", "weights": {"corp": 0, "dwell": 1, "hack": 3, "open": 2, "startup": 3, "bro": 0} },
-	    { "text": "Don't have time", "weights": {"corp": 2, "dwell": 1, "hack": 0, "open": 0, "startup": 3, "bro": 0} }
+	    { "text": "Dont have time", "weights": {"corp": 2, "dwell": 1, "hack": 0, "open": 0, "startup": 3, "bro": 0} }
     ]
   },
   {
