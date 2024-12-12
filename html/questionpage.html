@@ -11,6 +11,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <link href="style.css" rel="stylesheet" />
   </head>
+  <style>
+    .answer-btn.selected {
+      background-color: #28a745 !important;
+      color: white;
+      border-color: #28a745;
+    }
+  </style>
   <body>
     <div class="container">
       <div class="title">Question {{qno}}</div>
@@ -127,12 +134,5 @@
         }
       };
     </script>
-    <style>
-      .answer-btn.selected {
-        background-color: #28a745 !important;
-        color: white;
-        border-color: #28a745;
-      }
-    </style>
   </body>
 </html>
