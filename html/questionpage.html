@@ -10,8 +10,14 @@
     />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <link href="style.css" rel="stylesheet" />
-    <style></style>
   </head>
+  <style>
+    .answer-btn.selected {
+      background-color: #28a745 !important;
+      color: white;
+      border-color: #28a745;
+    }
+  </style>
   <body>
     <div class="container">
       <div class="title">Question {{qno}}</div>
@@ -25,7 +31,12 @@
       <div class="text">{{question}}</div>
       <div class="options">
         {{#each answers}}
-        <button class="btn btn-primary">{{this}}</button>
+        <button
+          class="btn btn-primary answer-btn"
+          onclick="selectAnswer('{{this}}')"
+        >
+          {{this}}
+        </button>
         {{/each}}
       </div>
       <div class="navigation-buttons">
@@ -37,16 +48,94 @@
     </div>
     <footer>SDT 2024</footer>
     <script>
+      let selectedAnswer = null;
+
+      // Function to handle answer selection
+      function selectAnswer(answerText) {
+        console.log(`Answer selected: ${answerText}`); // Debugging log
+
+        const buttons = document.querySelectorAll(".answer-btn");
+        buttons.forEach((button) => {
+          button.classList.remove("selected"); // Remove selection class from all buttons
+        });
+
+        const clickedButton = [...buttons].find(
+          (button) => button.textContent.trim() === answerText.trim(),
+        );
+
+        if (!clickedButton) {
+          console.error(`Button not found for answer: "${answerText}"`);
+          console.log(
+            "Available buttons:",
+            [...buttons].map((b) => b.textContent.trim()),
+          );
+          return;
+        }
+
+        clickedButton.classList.add("selected"); // Add selection class to clicked button
+        selectedAnswer = answerText;
+        console.log(`selectedAnswer updated: ${selectedAnswer}`); // Debugging log
+        save();
+      }
+
+      // Function to save answer and navigate
+      function save() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const questionNumber = parseInt(urlParams.get("p")) || 1;
+
+        if (selectedAnswer) {
+          console.log(`Saving: question_${questionNumber} = ${selectedAnswer}`);
+
+          try {
+            // Save the selected answer to Local Storage
+            localStorage.setItem(`question_${questionNumber}`, selectedAnswer);
+            console.log("Data saved successfully to Local Storage!");
+          } catch (error) {
+            console.error("Error saving to Local Storage:", error);
+          }
+        } else {
+          alert("Please select an answer before proceeding!");
+        }
+      }
+
+      // Function to navigate between questions
       function navigate(step) {
         const urlParams = new URLSearchParams(window.location.search);
         let questionNumber = parseInt(urlParams.get("p")) || 1;
 
+        console.log(`Current questionNumber: ${questionNumber}`); // Debugging log
+        console.log(`Navigating step: ${step}`); // Debugging log
+
         questionNumber += step;
 
         if (questionNumber > 0) {
+          console.log(`Navigating to: /q?p=${questionNumber}`); // Debugging log
           window.location.href = `/q?p=${questionNumber}`;
         }
       }
+
+      // Highlight saved answer on page load
+      window.onload = function () {
+        const urlParams = new URLSearchParams(window.location.search);
+        const questionNumber = parseInt(urlParams.get("p")) || 1;
+
+        const savedAnswer = localStorage.getItem(`question_${questionNumber}`);
+        console.log(
+          `Loaded answer for question ${questionNumber}: ${savedAnswer}`,
+        );
+
+        if (savedAnswer) {
+          const buttons = document.querySelectorAll(".answer-btn");
+          const selectedButton = [...buttons].find(
+            (button) => button.textContent.trim() === savedAnswer.trim(),
+          );
+
+          if (selectedButton) {
+            selectedButton.classList.add("selected");
+            selectedAnswer = savedAnswer; // Update the global variable
+          }
+        }
+      };
     </script>
   </body>
 </html>

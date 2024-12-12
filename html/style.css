@@ -40,7 +40,7 @@ html {
 
 .options {
   display: grid;
-  grid-template-columns: 1fr 1fr; 
+  grid-template-columns: 1fr 1fr;
   gap: 15px;
   margin: 0 auto;
   width: 100%;
@@ -98,8 +98,8 @@ html {
 }
 
 .quiz-button {
-  display: block; 
-  margin: 20px auto; 
+  display: block;
+  margin: 20px auto;
   text-align: center;
   font-size: 18px;
   font-weight: bold;
@@ -108,17 +108,17 @@ html {
   padding: 12px 24px;
   border: none;
   border-radius: 8px;
-  text-decoration: none; 
+  text-decoration: none;
   transition:
     background-color 0.3s ease,
     transform 0.2s ease;
 }
 .quiz-button:hover {
-  background-color: #0056b3; 
+  background-color: #0056b3;
   transform: translateY(-3px) scale(1.05);
 }
 .quiz-button:active {
-  transform: translateY(1px) scale(0.95); 
+  transform: translateY(1px) scale(0.95);
 }
 
 footer {
