@@ -41,7 +41,7 @@
     </div>
     <footer>SDT 2024</footer>
     <script>
-  let selectedAnswer = null;
+      let selectedAnswer = null;
 
       // Function to handle answer selection
       function selectAnswer(answerText) {
@@ -53,12 +53,15 @@
         });
 
         const clickedButton = [...buttons].find(
-          (button) => button.textContent.trim() === answerText.trim()
+          (button) => button.textContent.trim() === answerText.trim(),
         );
 
         if (!clickedButton) {
           console.error(`Button not found for answer: "${answerText}"`);
-          console.log("Available buttons:", [...buttons].map((b) => b.textContent.trim()));
+          console.log(
+            "Available buttons:",
+            [...buttons].map((b) => b.textContent.trim()),
+          );
           return;
         }
 
@@ -83,8 +86,6 @@
           } catch (error) {
             console.error("Error saving to Local Storage:", error);
           }
-
- 
         } else {
           alert("Please select an answer before proceeding!");
         }
@@ -112,12 +113,14 @@
         const questionNumber = parseInt(urlParams.get("p")) || 1;
 
         const savedAnswer = localStorage.getItem(`question_${questionNumber}`);
-        console.log(`Loaded answer for question ${questionNumber}: ${savedAnswer}`);
+        console.log(
+          `Loaded answer for question ${questionNumber}: ${savedAnswer}`,
+        );
 
         if (savedAnswer) {
           const buttons = document.querySelectorAll(".answer-btn");
           const selectedButton = [...buttons].find(
-            (button) => button.textContent.trim() === savedAnswer.trim()
+            (button) => button.textContent.trim() === savedAnswer.trim(),
           );
 
           if (selectedButton) {
