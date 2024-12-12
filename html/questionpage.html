@@ -65,10 +65,11 @@
         clickedButton.classList.add("selected"); // Add selection class to clicked button
         selectedAnswer = answerText;
         console.log(`selectedAnswer updated: ${selectedAnswer}`); // Debugging log
+        save();
       }
 
       // Function to save answer and navigate
-      function saveAndNavigate(step) {
+      function save() {
         const urlParams = new URLSearchParams(window.location.search);
         const questionNumber = parseInt(urlParams.get("p")) || 1;
 
@@ -83,10 +84,7 @@
             console.error("Error saving to Local Storage:", error);
           }
 
-          // Navigate to the next or previous question after saving
-          setTimeout(() => {
-            navigate(step);
-          }, 50); // Ensure the save operation completes before navigating
+ 
         } else {
           alert("Please select an answer before proceeding!");
         }
