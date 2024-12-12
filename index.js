@@ -21,6 +21,7 @@ app.use(express.static(path.join(__dirname, "html")));
 
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "html", "startpage.html"));
+  console.log(`Timestamp: ${new Date().toISOString()}`);
 });
 
 app.get("/q", (req, res) => {
@@ -60,6 +61,7 @@ app.get("/q", (req, res) => {
       return res.end();
     },
   );
+  console.log(`Timestamp: ${new Date().toISOString()} | Question: ${req.origialURL} | IP: ${req.ip}\n`);
 });
 
 app.get("/r", (req, res) => {
@@ -72,6 +74,7 @@ app.get("/r", (req, res) => {
     res.write(data);
     return res.end();
   });
+  console.log(`Timestamp: ${new Date().toISOString()}`);
 });
 
 app.listen(port, () => {
