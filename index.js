@@ -61,7 +61,9 @@ app.get("/q", (req, res) => {
       return res.end();
     },
   );
-  console.log(`Timestamp: ${new Date().toISOString()} | Question: ${req.origialURL} | IP: ${req.ip}\n`);
+  console.log(
+    `Timestamp: ${new Date().toISOString()} | Question: ${req.origialURL} | IP: ${req.ip}\n`,
+  );
 });
 
 app.get("/r", (req, res) => {
