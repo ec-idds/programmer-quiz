@@ -29,7 +29,9 @@
         {{/each}}
       </div>
       <div class="navigation-buttons">
+        {{#unless isFirstQuestion}}
         <button class="prev-button" onclick="navigate(-1)">&larr; Last</button>
+        {{/unless}}
         <button class="next-button" onclick="navigate(1)">Next &rarr;</button>
       </div>
     </div>
