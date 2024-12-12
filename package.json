@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ec-idds/programmer-quiz#readme",
   "dependencies": {
+    "debug": "^4.4.0",
     "express": "^4.21.2",
     "handlebars": "^4.7.8"
   },
